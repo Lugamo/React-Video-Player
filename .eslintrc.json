@@ -1,0 +1,11 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "react/destructuring-assignment": ["<enabled>", "never"],
+        "react/prefer-stateless-function": ["<enabled>", { "ignorePureComponents": "<ignorePureComponents>" }],
+        "react/require-default-props": ["<enabled>", { "forbidDefaultForRequired": false }]
+    },
+    "env": {
+        "browser": true
+    }
+}
